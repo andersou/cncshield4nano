@@ -10813,17 +10813,15 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="58.42" y1="69.85" x2="63.5" y2="69.85" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="GND_MOT" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="GND@0"/>
-<wire x1="210.82" y1="64.77" x2="212.09" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="212.09" y1="64.77" x2="212.09" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="212.09" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="63.5" x2="226.06" y2="63.5" width="0.1524" layer="91"/>
-<junction x="218.44" y="63.5"/>
-<label x="228.6" y="63.5" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="GND@0"/>
+<wire x1="212.09" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="152.4" x2="213.36" y2="151.13" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="-"/>
+<wire x1="213.36" y1="151.13" x2="219.71" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="219.71" y1="151.13" x2="227.33" y2="151.13" width="0.1524" layer="91"/>
+<junction x="219.71" y="151.13"/>
+<label x="229.87" y="151.13" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND@0"/>
@@ -10836,14 +10834,14 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <label x="229.87" y="107.95" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND@0"/>
-<wire x1="212.09" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="152.4" x2="213.36" y2="151.13" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="213.36" y1="151.13" x2="219.71" y2="151.13" width="0.1524" layer="91"/>
-<wire x1="219.71" y1="151.13" x2="227.33" y2="151.13" width="0.1524" layer="91"/>
-<junction x="219.71" y="151.13"/>
-<label x="229.87" y="151.13" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="GND@0"/>
+<wire x1="210.82" y1="64.77" x2="212.09" y2="64.77" width="0.1524" layer="91"/>
+<wire x1="212.09" y1="64.77" x2="212.09" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="212.09" y1="63.5" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="63.5" x2="226.06" y2="63.5" width="0.1524" layer="91"/>
+<junction x="218.44" y="63.5"/>
+<label x="228.6" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X4" gate="-2" pin="K"/>
