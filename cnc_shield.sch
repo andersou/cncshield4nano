@@ -10636,6 +10636,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="S2" library="RepRapjr" deviceset="10-XX-RPAD" device=""/>
 <part name="S3" library="RepRapjr" deviceset="10-XX-RPAD" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="supply2" deviceset="VCC" device=""/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10680,6 +10682,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <instance part="S2" gate="1" x="34.29" y="66.04" rot="R270"/>
 <instance part="S3" gate="1" x="34.29" y="87.63" rot="R270"/>
 <instance part="GND4" gate="1" x="24.13" y="58.42"/>
+<instance part="SUPPLY7" gate="G$1" x="58.42" y="78.74"/>
+<instance part="GND5" gate="1" x="58.42" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -10760,6 +10764,12 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="151.13" y1="144.78" x2="153.67" y2="144.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
+<wire x1="58.42" y1="76.2" x2="58.42" y2="74.93" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="5.5V"/>
+<wire x1="58.42" y1="74.93" x2="63.5" y2="74.93" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -10796,6 +10806,12 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pinref part="S2" gate="1" pin="P"/>
 <wire x1="29.21" y1="66.04" x2="24.13" y2="66.04" width="0.1524" layer="91"/>
 <junction x="24.13" y="66.04"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="58.42" y1="68.58" x2="58.42" y2="69.85" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="58.42" y1="69.85" x2="63.5" y2="69.85" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND_MOT" class="0">
